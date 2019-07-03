@@ -84,3 +84,14 @@ $ git branch -d <name>
 
 ## 查看分支合并图
 $ git log --graph --pretty=oneline --abbrev-commit
+
+## 普通模式合并
+$ git merge --no-ff -m <message> dev
+
+## bug分支
+$ git stash			//储藏现场
+$ git stash list 	//查看工作现场
+$ git stash pop		//恢复现场（删除statsh内容）
+$ git stash apply   //恢复现场（不删除statsh内容）
+$ git stash drop	//删除ststsh内容
+$ git stash apply stash@{} //恢复指定内容
