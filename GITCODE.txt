@@ -37,3 +37,9 @@ $ git reset --hard commit_id
 
 ## 查询命令日志
 git reflog
+
+## 丢弃工作区修改
+$ git checkout -- <file>
+
+## 暂存区修改撤销
+git reset HEAD <file>
