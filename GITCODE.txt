@@ -1,0 +1,39 @@
+GIT CODE
+
+## 设置账户 
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+
+## 创建仓库
+$ mkdir <file>
+$ cd <file> 
+$ pwds
+$ git init
+
+## 添加修改文件 
+$ git add <file>
+$ git commit -m <message>
+
+## 查询文件内容
+$ cat <file>
+
+## 查询状态
+$ git status
+
+## 查询修改内容
+$ git diff <file> 
+
+## 查询版本日志
+$ git log
+
+## 查询版本参数
+$ git log --pretty=oneline
+
+## 回退版本
+$ git reset --hard HEAD^s
+
+## 回退版本参数方式
+$ git reset --hard commit_id
+
+## 查询命令日志
+git reflog
