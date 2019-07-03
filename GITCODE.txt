@@ -59,6 +59,7 @@ $ git push -u origin master
 ## 向远程推送最新修改
 $ git push origin master
 
+<<<<<<< HEAD
 ## 克隆库
 $ git clone 
 $ cd <file>
@@ -68,3 +69,7 @@ $ ls
 $ git checkout -b dev
 $ git branch 
 $ git checkout 
+=======
+## 测试dev ##
+
+>>>>>>> dev
