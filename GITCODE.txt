@@ -48,3 +48,13 @@ $ git reset HEAD <file>
 $ rm <file>
 $ git rm <file>
 $ git commit -m <message>
+
+## 创建SSH key
+$ ssh-keygen -t rsa -C "youremail@example.com"
+
+## 向远程推送本地存储库
+$ git remote add origin git@github.com:DrSCS / brucegit.git
+$ git push -u origin master
+
+## 向远程推送最新修改
+$ git push origin master
